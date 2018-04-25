@@ -1,0 +1,4 @@
+lsblk ou fdisk -l = para ver as unidades montadas
+sudo umount /dev/sdb1 = ou a que for
+sudo mkfs.vfat -F 32 /dev/sdb1 = formata o pendrive
+

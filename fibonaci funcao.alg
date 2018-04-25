@@ -1,0 +1,21 @@
+algoritmo "FIBONACCI"
+var
+ 	I, T1, T2, T3:INTEIRO
+FUNCAO PF(VAR N1, N2: INTEIRO): INTEIRO
+VAR N3: INTEIRO
+INICIO
+    N3<- N1 + N2
+    N1<- N2
+    N2<- N3
+    RETORNE N3
+FIMFUNCAO
+inicio
+    T1:= 0
+    ESCREVAL(T1)
+    T2:= 1
+    ESCREVAL(T2)
+    PARA I := 3 ATE 15 FACA
+        T3 <- PF(T1, T2)
+        ESCREVAL(T3)
+    FIMPARA
+fimalgoritmo
