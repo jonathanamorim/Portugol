@@ -1,3 +1,5 @@
+//algoritmo que verifica se a palavra escrita é um palindromo
+
 algoritmo "A13Q02"
 var
    P: VETOR[0..5] DE CARACTERE
