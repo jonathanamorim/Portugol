@@ -13,14 +13,14 @@ inicio
 //know which is greater
 	Se (first > second) e (first > third) entao
 		greater <- first
-		escreval("O primeiro valor é o maior")
+		escreval("O primeiro valor Ã© o maior")
 	Senao
 		Se (second > first) e (second > third) entao
 			greater <- second
-			escreval("O segundo valor é o maior")
+			escreval("O segundo valor Ã© o maior")
 		Senao
 			greater <- third
-			Escreval("O terceiro valor é o maior")
+			Escreval("O terceiro valor Ã© o maior")
 		Fimse
 	Fimse
 //find out which is less
